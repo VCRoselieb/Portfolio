@@ -1,0 +1,29 @@
+.top-nav-collapse {
+  background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3f51b5 !important;
+  }
+}
+li {background-color: transparent;
+    float:left;
+  display: block;
+  color: white;
+    text-align: center;
+    padding: 14px 16px;}
+
+.container{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    }
+
+h1{color: white;}
