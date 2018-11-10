@@ -4,20 +4,39 @@
 
 .navbar:not(.top-nav-collapse) {
   background: transparent !important;
+  color: green;
 }
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #3f51b5 !important;
   }
 }
+a.nav-link {
+    color: gray;
+}
+
+
+button{
+  color: green;
+}
+
 li {background-color: transparent;
     float:left;
-  display: block;
-  color: white;
+    display: block;
+    color: green;
     text-align: center;
     padding: 14px 16px;}
 
+
+img { margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+
 .container{
+
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -25,5 +44,14 @@ li {background-color: transparent;
     padding: 10px;
 
     }
+    .margins{
 
-h1{color: white;}
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 150px;
+        padding: 10px;
+
+        }
+
+h1 {color: white;}
