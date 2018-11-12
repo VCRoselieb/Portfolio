@@ -1,24 +1,14 @@
-.top-nav-collapse {
-  background-color: #3f51b5 !important;
-}
 
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-  color: green;
-}
+
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #3f51b5 !important;
   }
 }
 a.nav-link {
-    color: gray;
+    color: pink;
 }
 
-
-button{
-  color: green;
-}
 
 li {background-color: transparent;
     float:left;
@@ -37,6 +27,7 @@ margin-bottom: 20px;
 
 .container{
 
+
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -53,5 +44,3 @@ margin-bottom: 20px;
         padding: 10px;
 
         }
-
-h1 {color: white;}
