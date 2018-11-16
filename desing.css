@@ -12,6 +12,10 @@ main {
   margin: 30px;
   padding-left: 35px;
 
+
+}
+.card-body{
+  margin-bottom: 50px;
 }
 
 a.active{
