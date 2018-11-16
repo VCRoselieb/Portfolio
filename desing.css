@@ -10,6 +10,8 @@ a.nav-link {
 }
 main {
   margin: 30px;
+  padding-left: 35px;
+
 }
 
 a.active{
