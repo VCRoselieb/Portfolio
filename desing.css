@@ -5,13 +5,28 @@
     background: #3f51b5 !important;
   }
 }
+
+@media only screen and (max-width: 767.98px) {
+    #navbar-example3 {
+        display: none;
+    }
+}
+
 a.nav-link {
     color: pink;
 }
 main {
   margin: 30px;
+  margin-top: 50px;
   padding-left: 35px;
 
+
+}
+
+img.gif{
+  position: relative;
+  width: 400px;
+  height: auto;
 
 }
 .card-body{
@@ -22,10 +37,6 @@ a.active{
   color: white;
 }
 
-.h1 {
-    font-size: 2.5rem;
-    padding: 20px;
-}
 
 li {background-color: transparent;
     float:left;
@@ -35,10 +46,7 @@ li {background-color: transparent;
     padding: 14px 16px;}
 
 
-img { margin-top: 20px;
-margin-left: 20px;
-margin-right: 20px;
-margin-bottom: 20px;
+img { margin: 20px;
 }
 
 
