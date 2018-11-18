@@ -78,26 +78,41 @@
 </header>
  <main>
 
-<p>This is the
-Contact Page </p>
+<div class="background">
+
+<h1 style="margin-bottom: 50px; padding: 8px"> Contact Me! </h1>
 
 
-<fieldset class="contact-details-panel" id="edit-details"><div class="form-item form-type-textfield form-item-name">
-  <label for="edit-name">Name <span class="form-required u-visually-hidden" title="This field is required.">(required)</span></label>
- <input type="text" id="edit-name" name="name" value="" size="60" maxlength="128" class="form-text required">
-</div>
-<div class="form-item form-type-textfield form-item-email">
-  <label for="edit-email">Email address <span class="form-required u-visually-hidden" title="This field is required.">(required)</span></label>
- <input placeholder="your email address" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text required"> <span class="field-suffix"><button type="button" class="tooltip" data-tooltip="Please enter a valid email address"><span class="visually-hidden">Form Help</span> <span aria-hidden="true">?</span></button></span>
-</div>
-<div class="form-item form-type-textfield form-item-telephone">
-  <label for="edit-telephone">Telephone no. <span class="form-required u-visually-hidden" title="This field is required.">(required)</span></label>
- <input placeholder="Enter your phone number" type="text" id="edit-telephone" name="telephone" value="" size="60" maxlength="128" class="form-text required"> <span class="field-suffix"><button type="button" class="tooltip" data-tooltip="If you do not want to provide your phone number, please enter 0000"><span class="visually-hidden">Form Help</span> <span aria-hidden="true">?</span></button></span>
-<div class="description"></div>
+<form>
+  <div class="form-group">
+    <label for="exampleInput">Name</label>
+    <input  class="form-control" placeholder="Enter Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInput">Email address</label>
+    <input  class="form-control" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInput">Subject</label>
+    <input  class="form-control" placeholder="Enter your message" style="height:170px;">
+  </div>
+
+    <p>Preference for contact: </p>
+  <div class="form-group form-check">
+
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Phone</label>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck2">
+    <label class="form-check-label" for="exampleCheck1">Email</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </div>
 
-<button class="btn btn-secondary btn-sm"><a href="#">Submit</a></button>
-</fieldset>
+
+
 </main>
 
 <footer>

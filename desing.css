@@ -37,6 +37,10 @@ a.active{
   color: white;
 }
 
+.background{
+  background-color:rgba(218, 29, 199, .7);
+}
+
 
 li {background-color: transparent;
     float:left;
