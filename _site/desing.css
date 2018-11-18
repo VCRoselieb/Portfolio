@@ -38,6 +38,15 @@ img.gif{
   margin: 0px;
 
 }
+<!--This is  a carousel button-->
+.btn-secondary{
+  position: absolute;
+  margin-left: 50px;
+}
+<!--This is a comment. Comments are not displayed in the browser-->
+.carousel-control-prev{
+  position:relative;
+}
 
 a.active{
   color: white;
