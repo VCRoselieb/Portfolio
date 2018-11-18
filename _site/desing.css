@@ -31,7 +31,12 @@ img.gif{
 
 }
 .card-body{
+
   margin-bottom: 50px;
+}
+.card-img-top {
+  margin: 0px;
+
 }
 
 a.active{
