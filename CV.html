@@ -9,17 +9,17 @@ order: 3
   <div class="col-3">
     <img src="bild.jpg"  class=" img-thumbnail" alt="bild" width="191">
 
-    <nav id="navbar-example3" class="navbar navbar-dark bg-dark">
+    <nav id="navbar-example1" class="navbar navbar-dark bg-dark">
   <nav class="nav nav-pills flex-column">
-    <a class="nav-link" style="color:white" href="#item-1" >Education</a>
+    <a class="nav-link" id="heading" href="#item-1" >Education</a>
     <nav class="nav nav-pills flex-column">
       <a class="nav-link ml-3 my-1" href="#item-1-1">School</a>
       <a class="nav-link ml-3 my-1" href="#item-1-2">University</a>
     </nav>
-    <a class="nav-link" style="color:white" href="#item-2">Work Experience</a>
+    <a class="nav-link" id="heading" href="#item-2">Work Experience</a>
     <a class="nav-link ml-3 my-1" href="#item-2-1">Current Workings</a>
     <a class="nav-link ml-3 my-1" href="#item-2-2">Previous Workings</a>
-    <a class="nav-link" style="color:white;" href="#item-3">Qualifications</a>
+    <a class="nav-link" id="heading" href="#item-3">Qualifications</a>
     <nav class="nav nav-pills flex-column">
       <a class="nav-link ml-3 my-1" href="#item-3-1">Further Education</a>
       <a class="nav-link ml-3 my-1" href="#item-3-2">Skills</a>
@@ -28,7 +28,7 @@ order: 3
 </nav>
 
 
-<button class="btn btn" style="background-color: rgba(218, 29, 199, .7); margin-top: 50px; color: white;"><a href="wave.jpg" download>Download CV here</a></button>
+<a href="wave.jpg" class="btn btn" id=mybutton  download>Download CV here</a>
 
 
   </div>
@@ -36,7 +36,7 @@ order: 3
 
   <div class="col-8" >
   <div class="background">
-    <h2 style="padding-top: 8px">{{page.fulltitle}}</h2>
+    <h2>{{page.fulltitle}}</h2>
     <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
       <h4 id="item-1">Education</h4>
 
