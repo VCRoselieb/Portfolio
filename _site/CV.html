@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" >
 
 
-<div class="container">
 
-  <div class="view" style="background-image: url('http://www.blplegal.com/wp-content/uploads/2017/03/aligning-learning-to-business.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
+  <div class="view">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+
+<div class="container" >
  <head>
-   <link rel="stylesheet" href="desing.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="desing.css">
  <meta charset="utf-8">
  <title>CV</title>
  </head>
  <body>
+
 <header>
 
 
 
 
-   <div class="container" >
-
-
+   <div class="container" id=header >
 
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
        <a class="navbar-brand" href="#"></a>
@@ -51,7 +55,7 @@
                <a class="dropdown-item" href="projects.html">Overview</a>
                <div class="dropdown-divider"></div>
                <a class="dropdown-item" href="AI_Agent.html">AI Agent</a>
-               <a class="dropdown-item" href="#">Neuroinformatics Poroject</a>
+               <a class="dropdown-item" href="Neuroinformatics.html">Neuroinformatics Poroject</a>
 
                <a class="dropdown-item" href="#"></a>
              </div>
@@ -66,46 +70,196 @@
 
        </div>
      </nav>
-  <p>This is the <strong>My Curriculum Vitae</strong> header
+
   </div>
 
 </header>
  <main>
+<div class="row">
+  <div class="col-3">
+    <img src="bild.jpg"  class=" img-thumbnail" alt="bild" width="191">
 
-<p>This is the
-CV Page </p>
+    <nav id="navbar-example1" class="navbar navbar-dark bg-dark">
+  <nav class="nav nav-pills flex-column">
+    <a class="heading-nav-link" href="#item-1" >Education</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ml-3 my-1" href="#item-1-1">School</a>
+      <a class="nav-link ml-3 my-1" href="#item-1-2">University</a>
+    </nav>
+    <a class="heading-nav-link" href="#item-2">Work Experience</a>
+    <a class="nav-link ml-3 my-1" href="#item-2-1">Current Workings</a>
+    <a class="nav-link ml-3 my-1" href="#item-2-2">Previous Workings</a>
+    <a class="heading-nav-link" href="#item-3">Qualifications</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ml-3 my-1" href="#item-3-1">Further Education</a>
+      <a class="nav-link ml-3 my-1" href="#item-3-2">Skills</a>
+    </nav>
+  </nav>
+</nav>
 
 
-<img src=https://picsum.photos/200/300/?blur alt="gif">
-<button class="btn btn-secondary btn-sm"><a href="wave.jpg" download>Download CV here</a></button>
+<a href="wave.jpg" class="btn btn" id=mybutton  download>Download CV here</a>
+
+
+  </div>
+
+
+  <div class="col-9" >
+  <div class="background">
+    <h2>My Curriculum Vitae</h2>
+    <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+      <h4 id="item-1">Education</h4>
+
+      <h5 id="item-1-1">School</h5>
+      <div class="row">
+      <div class="col-3" >
+        <p>2007 - July 2015
+        </p>
+      </div>
+      <div class="col-8">
+        <p>Viktoria-Luise-Gymnasium, Hameln
+      A-levels</p>
+      </div>
+    </div>
+      <h5 id="item-1-2">University</h5>
+      <div class="row">
+      <div class="col-3" >
+        <p>Since	October 2016
+        </p>
+      </div>
+      <div class="col-8">
+        <p>University of Osnabrück
+  Study program: Cognitive Science
+  target certificate: Bachelor of Science in Spring 2019
+        </p>
+      </div>
+      </div>
+      <h4 id="item-2">Work Experience</h4>
+      <p>  </p>
+      <h5 id="item-2-1">Current Workings</h5>
+        <div class="row">
+        <div class="col-3" >
+          <p>2012 -current </p>
+
+        </div>
+        <div class="col-8">
+          <p>Waitress at the Ith-Sole-Therme, Salzhemmendorf
+          </p>
+          <p>Temporary job in a metal working company; Gehrmann GMBH, Springe</p>
+          <p>Tutoress in languages and natural sciences</p>
+        </div>
+        </div>
+        <h5 id="item-2-2">Previous Workings</h5>
+          <div class="row">
+          <div class="col-3" >
+          2013 - 2016
+
+
+
+          </div>
+          <div class="col-8">
+            <p>
+            Educator in the 'Kinderspielhaus', Hameln
+(voluntary)
+Diverse internships in dental surgeries and dental laboratories
+Internship in a retirement home; Haus Sissi, Esbeck
+work in choir 'Pro Musica', Salzhemmendorf
+(voluntary) </p>
+
+          </div>
+          </div>
+
+
+
+
+      <h4 id="item-3">Additional Qualifications</h4>
+
+      <h5 id="item-3-1">Further Education</h5>
+      <p>  <div class="row">
+        <div class="col-3" >
+          <p>
+          </p>
+        </div>
+        <div class="col-8">
+          <p>12-weeks Seminar about first-aid
+(certificaté de compétences de citoyen de sécurité civile)
+3-month student exchange France
+(Brigitte-Sauzay-Programm)
+Additional Business English seminar
+Additional Academic Writing English seminar
+
+          </p>
+        </div>
+        </div>
+      <h5 id="item-3-2">Skills</h5>
+      <p></p>
+      <div class="row">
+        <div class="col-3" >
+          <p>Knowledge of languages
+          </p>
+        </div>
+        <div class="col-8">
+          <p>German	Native language
+English	Advanced knowledge in speech and writing
+French	Advanced knowledge in speech and writing
+
+          </p>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-3" >
+            <p>EDV
+            </p>
+          </div>
+          <div class="col-8">
+            <p>Windows,Linux
+MS Office (Word, Power-Point, Excel, Outlook)
+Java, Prolog, Phython, C, C++, HTML, CSS, SPSS Statistics
+
+            </p>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-3" >
+              <p>Specials
+              </p>
+            </div>
+            <div class="col-8">
+              <p>Membership in a choir 'Kehs Gospelchor', Membership 'DLRG' (German live rescue association), Responsibility for an animal care (horse), Membership in a rowing club (till 2016)
+Driving licence for car and motorcycle
+
+              </p>
+            </div>
+            </div>
+    </div>
+
+  </div>
+  </div>
+
+</div>
+
+
+
+
 
 
 </main>
 
 <footer>
-<p>This is the <strong>My Curriculum Vitae</strong> footer
 
 
-<main>
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<footer>
+<div class="container">
 
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <blockquote class="blockquote">
-        <p>When people think about computer science, they imagine people with pocket protectors and thick glasses who code all night"</p>
+        <p><small>When people think about computer science, they imagine people with pocket protectors and thick glasses who code all night"</p>
         <footer class="blockquote-footer">Marissa Mayer <cite title="Source Title"></cite></footer>
       </blockquote>
-
-
-
-    </div>
-  </nav>
-  </main>
+      </div>
+</footer>
 
 </footer>
 
