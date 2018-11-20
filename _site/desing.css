@@ -140,8 +140,9 @@ top of a card should not have any margin*/
 /* This is a card button in the carousel  */
 .btn-secondary {
   position: absolute;
-  margin-left: 50px;
-  # z-index: 2;
+  margin-left: 130px;
+  background-color: rgba(218, 29, 199, .7);
+  border-color: rgba(218, 29, 199);
 }
 
 /* Download Button */
