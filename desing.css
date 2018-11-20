@@ -99,7 +99,7 @@ img.gif {
 }
 
 #projectImages {
-  height: 450px;
+  height: 400px;
 }
 
 
@@ -230,9 +230,10 @@ footer p {
   }
 
   #projectImages {
-    max-width: 80%;
-    max-height: 20%;
-    height: 20%;
+    max-width: 75%;
+    max-height: 75%;
+    height: 75%;
+    width: 75%;
   }
 }
 
