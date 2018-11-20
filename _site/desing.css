@@ -182,15 +182,15 @@ form {
 
 footer {
   background-color: #1C1C1C;
-  margin-right: 15px;
   margin-left: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  color: pink;
+  margin-right: 15px;
 }
 footer p{
     margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 58px;
+    padding-right: 58px;
     color: pink;
 
 }
