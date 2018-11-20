@@ -1,96 +1,16 @@
-
-
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #3f51b5 !important;
-
-  }
-
-.col-6{
-  max-width: 100%;
-  flex: 0 0 100%;
-
-}
-.col-4{
-  max-width: 100%;
-  flex: 0 0 100%;
-}
-
-.col-3{
-  display: none;
-}
-.col-9{
-  max-width: 100%;
-  width: 100%;
-  flex: 0 0 100%;
-
-  }
-.gif{
-  max-width: 50%;
-  width: 50%;
-  height: auto;
-}
-#projectImages{
-  max-width: 80%;
-  max-height: 20%;
-  height: 20%;
-
-}
-}
-@media (max-width: 768px) {
-  .container{
-    max-width: 100%;
-    width:100%;
-    flex: 0 0 100%;
-    margin: 0px;
-    padding:0px;
-
-  }
-  #hilfe{
-    margin:0px;
-    padding: 0px;
-  }
-
-
-}
-
-
-
-
-
-.view{
+/* Background of the whole Website */
+.view {
   background-image: url('http://www.blplegal.com/wp-content/uploads/2017/03/aligning-learning-to-business.jpg');
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center center fixed;
 }
-/* Applies pink to every link in my navbars */
-a.nav-link {
-  color: pink;
-}
-a.heading-nav-link{
-  color: white;
-  margin: 4px;
 
-}
 
-/* Navbar application */
-/* colors the active Navbar button to white for better navigation*/
-a.active {
-  color: white;
-}
-/* Applies to all list items at the top-navbar in the header  */
-li {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-}
 
-ul{
-  margin:0px;
-  padding: 0px;
-}
+/*  */
+/* Main */
+/*  */
 
 /* margins and paddings to all my main content  */
 main {
@@ -100,6 +20,20 @@ main {
   padding-right: 35px;
 }
 
+/* All the headings have the same color and padding through all the websides*/
+main h2, main h4 {
+  color: #2b2b2a;
+  padding-bottom: 8px;
+}
+
+/* Free headings without the pink backgrounds */
+main h1 {
+  margin-bottom: 50px;
+}
+
+main h3 {
+  margin-bottom: 15px;
+}
 
 /*This div class applies to `main`content on the pages  */
 .background {
@@ -108,22 +42,47 @@ main {
   color: white;
 }
 
-/* All the headings have the same color and padding through all the websides*/
-main h2, main h4 {
-  color: #2b2b2a;
-  padding-bottom: 8px;
-}
-
-/* Free headings without the pink backgrounds */
-main h1{
-  margin-bottom: 50px;
-}
-main h3{
-  margin-bottom: 15px;
-}
 
 
+/*  */
+/* Navbar application */
+/*  */
+
+/* Applies pink to every link in my navbars */
+a.nav-link {
+  color: pink;
+}
+
+/* white color for headings in side navbars */
+a.heading-nav-link {
+  color: white;
+  margin: 4px;
+}
+
+/* colors the active Navbar button to white for better navigation*/
+a.active {
+  color: white;
+}
+
+/* Applies to all list items at the top-navbar in the header  */
+li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/*  */
 /* Image */
+/*  */
+
 /* every image have the same margin */
 img {
   margin: 20px;
@@ -134,84 +93,161 @@ img.gif {
   position: relative;
   width: 400px;
   height: auto;
-  background-color:rgba(218, 29, 199, .7);
+  background-color: rgba(218, 29, 199, .7);
   border-radius: 50%;
   margin-bottom: 130px;
 }
 
+#projectImages {
+  height: 450px;
+}
 
+
+
+/*  */
 /* Cards */
+/*  */
 /* Applies the margin-bottom to every card acc to better desing on the About me
 Page.*/
 .card-body {
   margin-bottom: 50px;
   color: #2b2b2a;
 }
+
 /*Card bodies in the Project have a slightly different design*/
-
-
 /* Because all my images have a margin I have to specify that the images on the
 top of a card should not have any margin*/
 .card-img-top {
   margin: 0px;
 }
+
 /* colors every second cards background to pink */
-.card-1{
-  background-color:rgba(218, 29, 199, .7);
+.card-1 {
+  background-color: rgba(218, 29, 199, .7);
 }
+
 /* colors every second cards background to white */
-.card-2{
+.card-2 {
   background-color: rgba(255, 255, 255, .7);
 }
 
 
-/* This is a card buytton in the carousel  */
+
+/*  */
+/* Buttons */
+/*  */
+
+/* This is a card button in the carousel  */
 .btn-secondary {
   position: absolute;
   margin-left: 50px;
   # z-index: 2;
 }
 
-/* This is a carousel button to  */
-a.carousel-control-prev {
-  position:sticky;
-}
-
-/* Headings in the aside Navbar are colored in white */
-.heading {
-  color: white;
-}
-
-/* Only apllied to be on the same height as the image on the homepage */
-#Lebensmotto{
-   margin:20px;
-}
-
-#exampleInput3{
-  height:170px;
-}
-form{
-  margin-right: 50px;
-}
-#mybutton{
+/* Download Button */
+#mybutton {
   background-color: rgba(218, 29, 199, .7);
   margin-top: 50px;
   color: white;
 }
-#projectImages{
-height : 450px;
+
+
+
+/* Margrin to contact form */
+form {
+  margin-right: 50px;
 }
 
-footer{
-  background-color:#1C1C1C;
+
+
+/*  */
+/* Specials applied on IDs */
+/*  */
+
+/* Only apllied to be on the same height as the image on the homepage */
+#Lebensmotto {
+  margin: 20px;
 }
-footer p{
+
+#exampleInput3 {
+  height: 170px;
+}
+
+
+
+/*  */
+/* Footer */
+/*  */
+
+footer {
+  background-color: #1C1C1C;
+}
+
+footer p {
   padding-left: 20px;
-  padding-top:20px;
+  padding-top: 20px;
   margin-top: 30px;
   color: pink;
 }
 
-#header{
-  padding:0px;
+
+
+/*  */
+/*  DevicesSize Adaptions*/
+/*  */
+
+/* Adaptions for smaller Devices */
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3f51b5 !important;
+  }
+
+  .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .col-4 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .col-9 {
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+  }
+
+  /* get rid of navabrs on the side on smaller devices */
+  .col-3 {
+    display: none;
+  }
+
+  .gif {
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+  }
+
+  #projectImages {
+    max-width: 80%;
+    max-height: 20%;
+    height: 20%;
+  }
+}
+
+/* Adaptions for even smaller devices and mobile */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #hilfe {
+    margin: 0px;
+    padding: 0px;
+  }
 }
