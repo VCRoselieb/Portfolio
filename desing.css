@@ -1,3 +1,5 @@
+
+
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #3f51b5 !important;
@@ -34,6 +36,22 @@
   height: 20%;
 
 }
+}
+@media (max-width: 768px) {
+  .container{
+    max-width: 100%;
+    width:100%;
+    flex: 0 0 100%;
+    margin: 0px;
+    padding:0px;
+
+  }
+  #hilfe{
+    margin:0px;
+    padding: 0px;
+  }
+
+
 }
 
 
