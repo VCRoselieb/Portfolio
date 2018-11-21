@@ -1,10 +1,14 @@
 /* Background of the whole Website */
 .view {
-  background-image: url('http://www.blplegal.com/wp-content/uploads/2017/03/aligning-learning-to-business.jpg');
+  background-image:  url("aligning-learning-to-business.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* Font */
+body{
+  font-family: 'Raleway', sans-serif;
+}
 
 
 /*  */
